@@ -1,8 +1,9 @@
 import "./App.css";
-import ImageSlider from "./components/ImageSlider/ImageSlider";
-import IncrementCounter from "./components/incrementCounter/IncrementCounter";
-import OverlappingCircle from "./components/OverlappingCircle/OverlappingCircle";
-import PopUpModal from "./components/popUpModal";
+import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
+// import ImageSlider from "./components/ImageSlider/ImageSlider";
+// import IncrementCounter from "./components/incrementCounter/IncrementCounter";
+// import OverlappingCircle from "./components/OverlappingCircle/OverlappingCircle";
+// import PopUpModal from "./components/popUpModal";
 
 function App() {
   return (
@@ -29,10 +30,14 @@ function App() {
       </div>
       <IncrementCounter /> */}
 
-      <div className="top-heading">
+      {/* <div className="top-heading">
         <h1>Detect OverLapping Circle</h1>
       </div>
-      <OverlappingCircle />
+      <OverlappingCircle /> */}
+      <div className="top-heading">
+        <h1>Capture Product when Stop Scrolling</h1>
+      </div>
+      <CaptureProduct items={27} />
     </div>
   );
 }

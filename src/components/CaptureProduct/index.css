@@ -1,0 +1,19 @@
+.container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background: red;
+  font-size: 40px;
+  color: #fff;
+}
