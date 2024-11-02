@@ -1,5 +1,6 @@
 import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
+import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
 // import ImageSlider from "./components/ImageSlider/ImageSlider";
 // import IncrementCounter from "./components/incrementCounter/IncrementCounter";
 // import OverlappingCircle from "./components/OverlappingCircle/OverlappingCircle";
@@ -34,10 +35,16 @@ function App() {
         <h1>Detect OverLapping Circle</h1>
       </div>
       <OverlappingCircle /> */}
-      <div className="top-heading">
+
+      {/* <div className="top-heading">
         <h1>Capture Product when Stop Scrolling</h1>
+        </div>
+        <CaptureProduct items={27} /> */}
+
+      <div className="top-heading">
+        <h1>Infinite Scrolling</h1>
       </div>
-      <CaptureProduct items={27} />
+      <InfiniteScroll />
     </div>
   );
 }
