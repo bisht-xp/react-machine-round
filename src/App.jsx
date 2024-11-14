@@ -1,6 +1,7 @@
 import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
+import Wordle from "./components/Wordle/Wordle";
 // import ImageSlider from "./components/ImageSlider/ImageSlider";
 // import IncrementCounter from "./components/incrementCounter/IncrementCounter";
 // import OverlappingCircle from "./components/OverlappingCircle/OverlappingCircle";
@@ -41,10 +42,15 @@ function App() {
         </div>
         <CaptureProduct items={27} /> */}
 
-      <div className="top-heading">
+      {/* <div className="top-heading">
         <h1>Infinite Scrolling</h1>
       </div>
-      <InfiniteScroll />
+      <InfiniteScroll /> */}
+
+      <div className="top-heading">
+        <h1>Wordle Game</h1>
+      </div>
+      <Wordle />
     </div>
   );
 }

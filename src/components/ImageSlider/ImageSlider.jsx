@@ -24,7 +24,7 @@ const ImageSlider = ({ image1, image2, width = "500px", height = "500px" }) => {
   const slideMove = (e) => {
     let w = imageRef.current.getBoundingClientRect();
     // console.log("slide w: ", );
-    
+    console.log(canStart);
     if(!canStart) return;
 
     if(!overlayRef.current || !sliderRef.current) return;
