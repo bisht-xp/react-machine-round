@@ -1,6 +1,8 @@
 import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
+import { Pokemon } from "./components/Pokemon/Pokemon";
+import Timer from "./components/Timer/Timer";
 import Wordle from "./components/Wordle/Wordle";
 // import ImageSlider from "./components/ImageSlider/ImageSlider";
 // import IncrementCounter from "./components/incrementCounter/IncrementCounter";
@@ -47,10 +49,19 @@ function App() {
       </div>
       <InfiniteScroll /> */}
 
-      <div className="top-heading">
+      {/* <div className="top-heading">
         <h1>Wordle Game</h1>
       </div>
-      <Wordle />
+      <Wordle /> */}
+
+      {/* <div className="top-heading">
+        <h1>Timer</h1>
+      </div>
+      <Timer /> */}
+      <div className="top-heading">
+        <h1>Pokemon</h1>
+      </div>
+      <Pokemon />
     </div>
   );
 }
