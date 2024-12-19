@@ -2,6 +2,7 @@ import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
 import { Pokemon } from "./components/Pokemon/Pokemon";
+import TicTacToe from "./components/TicTacToe/TicTacToe";
 import Timer from "./components/Timer/Timer";
 import Wordle from "./components/Wordle/Wordle";
 // import ImageSlider from "./components/ImageSlider/ImageSlider";
@@ -59,9 +60,9 @@ function App() {
       </div>
       <Timer /> */}
       <div className="top-heading">
-        <h1>Pokemon</h1>
+        <h1>Tic Tac Toe</h1>
       </div>
-      <Pokemon />
+      <TicTacToe />
     </div>
   );
 }

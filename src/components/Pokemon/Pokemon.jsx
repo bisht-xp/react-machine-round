@@ -26,6 +26,8 @@ export const Pokemon = () => {
     //     <div>Empty</div>
     //   )}
     // </div>
-    <div style={{ fontSize: "23px", textAlign: "center" }}>{count}</div>
+    <div>
+      <input />
+    </div>
   );
 };
