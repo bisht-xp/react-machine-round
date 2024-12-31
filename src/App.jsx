@@ -1,5 +1,7 @@
 import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
+import DragAndDrop from "./components/DragAndDropTodo/DragAndDrop";
+import Todo from "./components/DragAndDropTodo/Todo";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
 import { Pokemon } from "./components/Pokemon/Pokemon";
 import TicTacToe from "./components/TicTacToe/TicTacToe";
@@ -12,7 +14,7 @@ import Wordle from "./components/Wordle/Wordle";
 
 function App() {
   return (
-    <div className="container">
+    <div className="parentContainer">
       {/* <div className="top-heading">
         <h1>Creating Image Slider</h1>
       </div>
@@ -59,10 +61,14 @@ function App() {
         <h1>Timer</h1>
       </div>
       <Timer /> */}
-      <div className="top-heading">
+      {/* <div className="top-heading">
         <h1>Tic Tac Toe</h1>
       </div>
-      <TicTacToe />
+      <TicTacToe /> */}
+      <div className="top-heading">
+        <h1>Drag and Drop Todo List</h1>
+      </div>
+      <DragAndDrop />
     </div>
   );
 }

@@ -1,12 +1,22 @@
-.container {
+.parentContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-items: center;
+  /* justify-content: center; */
+  /* justify-items: center; */
   width: 100%;
+  height: 100vh;
+  background-color: #0072ff;
   /* margin: 20px 0 0 0; */
 }
 
 .top-heading {
+  color: white;
   text-align: center;
 }
+
+/* .todo-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+} */
