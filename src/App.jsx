@@ -1,5 +1,6 @@
 import "./App.css";
 import CaptureProduct from "./components/CaptureProduct/CaptureProduct";
+import ColorSpotter from "./components/ColorSpotterGame/ColorSpotter";
 import DragAndDrop from "./components/DragAndDropTodo/DragAndDrop";
 import Todo from "./components/DragAndDropTodo/Todo";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
@@ -65,10 +66,14 @@ function App() {
         <h1>Tic Tac Toe</h1>
       </div>
       <TicTacToe /> */}
-      <div className="top-heading">
+      {/* <div className="top-heading">
         <h1>Drag and Drop Todo List</h1>
       </div>
-      <DragAndDrop />
+      <DragAndDrop /> */}
+      <div className="top-heading">
+        <h1>Color Spotter Game</h1>
+      </div>
+      <ColorSpotter/>
     </div>
   );
 }
